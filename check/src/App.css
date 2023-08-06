@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.cursive{
+  font-family: 'Calligraffitti', cursive;
+  color: #7477FF;
+}
+.bg-primary{
+  background: #0F172A
+}
+.bg-secondery{
+  background: #1E293B
+}
+.bg-accent {
+  background: #7477FF;
+}
+.text-accent {
+  color: #7477FF;
+} 
+nav li a{
+  @apply p-4 py-5 text-lg;
+}
+
+nav li a:hover{
+  color: #7477FF;
+}
